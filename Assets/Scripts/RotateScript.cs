@@ -3,12 +3,7 @@ using UnityEngine;
 
 public class RotateScript : MonoBehaviour
 {
-    private void Start()
-    {
-        StartCoroutine(Rotate());
-    }
-
-    private IEnumerator Rotate()
+    private IEnumerator Start()
     {
         var y = 0f;
         
